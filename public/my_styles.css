@@ -1,0 +1,49 @@
+/* * {
+  border: thin red dashed;
+  box-sizing: border-box;
+} */
+body {
+    font-family: 'Goldman', cursive;
+}
+.button {border: 1px green solid;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 10px; 
+}
+.player-card {
+  border: thin green solid;
+  border-radius: 5px;
+  width: 25%;
+  text-align: center;
+  }
+.computer-card {
+  border: thin red solid;
+  border-radius: 5px;
+  width: 25%;
+  text-align: center;
+}
+.row  {
+  display: flex;
+  justify-content: space-evenly;
+}
+.row-center  {
+  display: flex;
+  justify-content: center;
+}
+.one-third  {
+  width: 28%;
+}
+.mb {
+  margin-bottom: 10px;
+}
+.outcome-card {
+  border: thin red solid;
+  border-radius: 5px;
+  width: 66%;
+  background-color: pink;
+  text-align: center;
+}
